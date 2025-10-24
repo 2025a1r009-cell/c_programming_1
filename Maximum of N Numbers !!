@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+#include<limits.h>
+
+int main() {
+    int i,num,N ;
+    scanf("%d",&N);
+    int max=INT_MIN;
+    
+    for (i=0;i<=N; i++){
+        scanf("%d ",&num);
+        if(num>max){
+            max=num ;
+        }
+    }
+    printf("%d ",max); 
+    return 0;
+}
