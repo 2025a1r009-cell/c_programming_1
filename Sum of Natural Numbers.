@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int N;
+    long long sum; // Using long long to handle large values of N
+
+    // Input the value of N
+    scanf("%d", &N);
+
+    // Calculate sum using the formula: sum = N * (N + 1) / 2
+    sum = (long long)N * (N + 1) / 2;
+
+    // Print the result
+    printf("%lld\n", sum);
+
+    return 0;
+}
