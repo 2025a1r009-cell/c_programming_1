@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+#include <stdio.h>
+
+int main() {
+    int N;
+    long long sum = 0;
+
+    // Input the value of N
+    scanf("%d", &N);
+
+    // Calculate sum of odd numbers up to N
+    for (int i = 1; i <= N; i += 2) {
+        sum += i;
+    }
+
+    // Print the result
+    printf("%lld\n", sum);
+
+    return 0;
+}
